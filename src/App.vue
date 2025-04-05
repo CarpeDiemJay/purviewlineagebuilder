@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import HelloWorld from './components/HelloWorld.vue'
+</script>
+
 <template>
   <div class="min-h-screen bg-gray-50">
     <nav class="bg-white shadow-sm">
@@ -231,7 +235,7 @@ const saveSettings = async () => {
 </script>
 
 <style>
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-</style> 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+</style>
